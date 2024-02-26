@@ -7,6 +7,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:react/recommended',
+		'plugin:react-hooks/recommended',
 		'prettier',
 	],
 	overrides: [
@@ -25,7 +26,7 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['@typescript-eslint', 'lingui', 'react'],
+	plugins: ['@typescript-eslint', '@emotion', 'react'],
 	rules: {
 		'@typescript-eslint/no-unused-vars': 1,
 	},
