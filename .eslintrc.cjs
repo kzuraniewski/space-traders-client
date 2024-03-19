@@ -7,7 +7,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@tanstack/eslint-plugin-query/recommended',
-		'plugin:react/recommended',
+		'plugin:react/jsx-runtime',
 		'plugin:react-hooks/recommended',
 		'prettier',
 	],

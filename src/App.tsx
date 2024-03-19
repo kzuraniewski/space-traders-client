@@ -1,4 +1,3 @@
-import React from 'react';
 import { css, Global } from '@emotion/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
