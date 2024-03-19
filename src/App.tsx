@@ -6,18 +6,18 @@ import './reset.css';
 
 const queryClient = new QueryClient();
 
+const globalStyles = css`
+	*,
+	*::after,
+	*::before {
+		box-sizing: border-box;
+	}
+`;
+
 function App() {
 	return (
 		<QueryClientProvider client={queryClient}>
-			<Global
-				styles={css`
-					*,
-					*::after,
-					*::before {
-						box-sizing: border-box;
-					}
-				`}
-			/>
+			<Global styles={globalStyles} />
 		</QueryClientProvider>
 	);
 }
